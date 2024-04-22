@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+    background-color: #407F7F;
+    font-size: 20px;
+}
+
+header{
+    background-color: #003333;
+}
+    
+nav a{
+    text-decoration: none;
+    color: #552700;
+   font-size: 13px;
+}
+
+nav a:visited{
+    text-decoration: none;
+    color: #804515;
+    background-color:gray ;}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 11px;
+    border-bottom: 2px solid #407F7F;
+
+}
+
+h1{
+    text-align: center;
+    color: #804515;
+    font-family: impact;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+}
+div{
+    text-align: center;
+    margin-bottom: 60px;
+}
+div img{
+    padding: 10px;
+}
+
+.napramky{
+    display: flex;
+}
+.nap{
+    width: 33%;
+    height: 400px;
+}
+.teachers{
+    display: flex;
+    justify-content: space-around;
+padding-bottom: 10px;
+    border-bottom: 2px solid aqua;
+}
+.teacher{
+font-size: 20px;
+width: 33%;
+text-align: center;
+}
+.teacher img{
+    width: 100px;
+    height: 100px;
+}
+.foto{
+    display: flex;
+    justify-content: space-between;
+}
+.foto img{
+    width: 25%;
+}
+footer{
+    background-color: #804515;
+    color: aliceblue;
+    height: 350px; 
+    
+}
+footer iframe{
+    float: right;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+.text{
+  margin:30px;
+  padding: 40px;
+  text-align: left;
+}
+.cat{
+    display: flex;
+    height: 300px;
+}
+.but{
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+}
+.but:hover{
+background-image: linear-gradient(aqua, green);
+}
+header img{
+    width: 100%;
+}
+.nap img{
+    width: 200px;
+    height: 200px;
+}
+.nap{
+    width: 33%;
+    border:2px solid aqua;
+    margin: 10px;
+text-align: center;
+}
+h2{
+    font-size: 30px;
+    font-family: impact;
+    color: #804515;
+}
+span{
+    border-radius: 10px;
+    background-color: #804515;
+    color: aqua;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+footer img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
